@@ -14,6 +14,19 @@ reporting structure, and strategic frameworks used.
 All operator data, KPI values, and client-specific 
 findings are confidential and excluded.
 
+**Key Highlight:** Identified and quantified AI-driven uplink 
+congestion impact on mobile networks following widespread 
+adoption of generative AI tools (ChatGPT, Gemini)
+
+**Analytical Domains:**
+- 📡 Network configuration & performance KPI analysis
+- 📶 Capacity, speed & throughput benchmarking  
+- 🤖 AI traffic impact & uplink congestion analysis
+- 🔄 Spectrum refarming strategy (3G→4G, 5G carrier addition)
+- 📱 App-layer traffic & DPI performance analysis
+- 💡 Feature recommendations & investment prioritization
+- 📋 C-suite executive summary & network roadmap
+
 ---
 
 ## Report Architecture

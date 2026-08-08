@@ -34,20 +34,20 @@ adoption of generative AI tools (ChatGPT, Gemini)
 The framework covers 10 analytical domains delivered 
 as an integrated executive intelligence report:
 
-┌─────────────────────────────────────┐
-│ NETWORK INSIGHTS REPORT │
-├─────────────────────────────────────┤
-│ 1. Network Configuration Analysis │
-│ 2. Performance & Key Indicators Overview │
-│ 3. Capacity Overview │
-│ 4. Speed & Throughput Analysis │
-│ 5. Congestion & AI Traffic Impact │
-│ 6. Feature Recommendations │
-│ 7. Spectrum Refarming Strategy │
-│ 8. App Data & Traffic Analysis │
-│ 9. Investment Focus Areas │
-│ 10. Executive Summary │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│         NETWORK INSIGHTS REPORT         │
+├─────────────────────────────────────────┤
+│  1.  Network Configuration Analysis     │
+│  2.  Performance & KPI Overview         │
+│  3.  Capacity Overview                  │
+│  4.  Speed & Throughput Analysis        │
+│  5.  Congestion & AI Traffic Impact     │
+│  6.  Feature Recommendations            │
+│  7.  Spectrum Refarming Strategy        │
+│  8.  App Data & Traffic Analysis        │
+│  9.  Investment Focus Areas             │
+│  10. Executive Summary                  │
+└─────────────────────────────────────────┘
 
 ---
 

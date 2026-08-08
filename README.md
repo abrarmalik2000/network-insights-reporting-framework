@@ -1,12 +1,12 @@
 # 📊 Network Insights Reporting Framework
-Regional mobile network intelligence reporting framework — performance KPIs, capacity planning, AI-driven congestion analysis, spectrum refarming strategy   
+Regional mobile network intelligence reporting framework : performance KPIs, capacity planning, AI-driven congestion analysis, spectrum refarming strategy   
 
 **Type:** Methodology Portfolio — Confidential data excluded
 
 ## Overview
 Developed a comprehensive regional network intelligence 
-reporting framework for mobile network operators across 
-the Middle East, delivering executive-ready insights on 
+reporting framework for mobile network operators, 
+delivering executive-ready insights on 
 network performance, capacity, and investment priorities.
 
 This repository documents the analytical methodology, 
@@ -19,7 +19,7 @@ congestion impact on mobile networks following widespread
 adoption of generative AI tools (ChatGPT, Gemini)
 
 **Analytical Domains:**
-- 📡 Network configuration & performance KPI analysis
+- 📡 Network configuration & performance Key Performance Indicator analysis
 - 📶 Capacity, speed & throughput benchmarking  
 - 🤖 AI traffic impact & uplink congestion analysis
 - 🔄 Spectrum refarming strategy (3G→4G, 5G carrier addition)
@@ -31,7 +31,7 @@ adoption of generative AI tools (ChatGPT, Gemini)
 
 ## Report Architecture
 
-The framework covers 10 analytical domains delivered 
+The framework covers 11 analytical domains delivered 
 as an integrated executive intelligence report:
 
 ```
@@ -46,8 +46,9 @@ as an integrated executive intelligence report:
 │  6.  Feature Recommendations            │
 │  7.  Spectrum Refarming Strategy        │
 │  8.  App Data & Traffic Analysis        │
-│  9.  Investment Focus Areas             │
-│  10. Executive Summary                  │
+│  9. Traffic Generating Apps             │
+│  10.  Investment Focus Areas            │
+│  11. Executive Summary                  │
 └─────────────────────────────────────────┘
 ```
 ---
@@ -136,7 +137,7 @@ theoretical and contracted network capabilities.
 ### Data Sources
 - Drive test measurements
 - Crowd-sourced speed data (Ookla)
-- Network counters — scheduler throughput
+- Network counters & scheduler throughput
 - CQI and MCS distribution analysis
 
 ### Analysis Framework
@@ -152,7 +153,7 @@ theoretical and contracted network capabilities.
 
 ### Objective
 Quantify the network impact of AI application 
-adoption — a critical emerging challenge 
+adoption; a critical emergent challenge 
 identified during this reporting period.
 
 ### Background
@@ -173,14 +174,14 @@ experienced a measurable shift in traffic patterns:
 - Uplink PRB utilization trend analysis pre/post 
   AI adoption period
 - App category traffic decomposition — AI vs 
-  streaming vs social
+  streaming vs social media
 - Uplink/downlink ratio trending by cell cluster
 - Impact quantification on user experience scores
 
 ### Strategic Implications
 - Uplink capacity dimensioning assumptions 
   require revision for AI-era networks
-- 5G UL-heavy configurations (e.g., SUL) become investment priorities
+- 5G UL-heavy configurations (e.g., Supplementry UpLink) become investment priorities
 - Feature activation recommendations to address UL congestion
 
 *This section represents original analytical work 
@@ -248,7 +249,7 @@ migration and carrier restructuring.
 **Step 3 — Migration Sequencing**
 Phase 1: Low-risk sites (urban, high 4G ratio)
 Phase 2: Suburban clusters
-Phase 3: Rural sites (device dependency check)
+Phase 3: Rural sites (device dependency checks)
 
 **Step 4 — 5G Carrier Addition Strategy**
 - NR carrier addition candidate identification
@@ -308,11 +309,10 @@ planning and QoS policy.
 - Top 10 applications by data volume (DL and UL)
 - Traffic share trending — monthly comparison
 - Peak hour traffic concentration by app category
-- Viral content detection — anomalous traffic spikes
 - Regional app preference vs global benchmarks
 
-### Key Insight — Middle East Context
-Regional app traffic patterns in the Middle East 
+### Regional Key Insights
+Regional app traffic patterns in the Middle East market
 differ significantly from global norms:
 - Higher WhatsApp video call traffic share
 - Elevated gaming traffic (PUBG, Free Fire dominant)
@@ -331,7 +331,7 @@ business-case-ready investment recommendations
 for network expansion.
 
 ### Investment Prioritization Framework based on Geographic Priority Indices 
-Priority Score = f(
+Priority Score = f(Priority geographical Index, 
 Congestion Severity,
 Population Density,
 Revenue Potential,
@@ -382,12 +382,13 @@ Executive Summary Structure:
 ├── Top 3 Strengths
 ├── Top 3 Critical Issues
 ├── Short-term & Strategic Recommendations
+├── Network insights summary 
 
 ---
 
 ## Technical Stack
 
-`geolocation tools` `Power BI` `Excel` `GIS Mapping`  
+`geolocation & performance tools` `Power BI` `Excel` `GIS Mapping`  
 `DPI Analytics` `Ookla Speedtest Intelligence`  
 `Performance Counter Analysis` `Agile Network Planning`
 
@@ -396,8 +397,7 @@ Executive Summary Structure:
 ## Note on Confidentiality
 All operator identity, actual KPI values, 
 geographic specifics, and report outputs 
-are confidential to Huawei and regional 
-operator clients. This repository documents 
+are confidential to clients. This repository documents 
 framework, methodology, and analytical 
 approach only.
 

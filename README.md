@@ -197,6 +197,7 @@ performance improvement without capital investment.
 
 ### Feature Evaluation Framework
 
+```
 For each recommended feature:
 Feature Assessment Template:
 ├── Feature Name & Description
@@ -208,6 +209,7 @@ Feature Assessment Template:
 ├── Risk Assessment
 ├── Prerequisite Conditions
 └── Priority Score (1-5)
+```
 
 ### Categories of Feature Recommendations
 - **Scheduler optimization** — dynamic PRB 
@@ -281,6 +283,7 @@ to radio network quality.
 
 ### App Performance Framework
 Application Categories:
+```
 ├── Streaming Video (YouTube, Netflix, TikTok)
 │ └── KPI: Video Quality Index, Stall Rate
 ├── Social Media (Instagram, Snapchat)
@@ -291,7 +294,7 @@ Application Categories:
 │ └── KPI: Latency, Jitter, Packet loss
 └── Communication (WhatsApp, Teams)
   └── KPI: VoIP MOS, Call setup delay
-
+```
 ---
 
 ## Section 9 — Traffic Generating Apps Analysis

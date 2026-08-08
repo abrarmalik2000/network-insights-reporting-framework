@@ -1,9 +1,6 @@
 # network-insights-reporting-framework
 Regional mobile network intelligence reporting framework — performance KPIs, capacity planning, AI-driven congestion analysis, spectrum refarming strategy
 # 📊 Network Insights Reporting Framework
-**Organization:** Huawei Technologies — Regional HQ, Bahrain
-**Coverage:** Middle East & Africa Regional Operations  
-**Context:** Senior Telecom Program Management | Dubai, UAE  
 **Type:** Methodology Portfolio — Confidential data excluded
 
 ## Overview
@@ -21,23 +18,22 @@ findings are confidential and excluded.
 
 ## Report Architecture
 
-The framework covers 11 analytical domains delivered 
+The framework covers 10 analytical domains delivered 
 as an integrated executive intelligence report:
 
 ┌─────────────────────────────────────┐
 │ NETWORK INSIGHTS REPORT │
 ├─────────────────────────────────────┤
 │ 1. Network Configuration Analysis │
-│ 2. Performance & KPI Overview │
+│ 2. Performance & Key Indicators Overview │
 │ 3. Capacity Overview │
 │ 4. Speed & Throughput Analysis │
 │ 5. Congestion & AI Traffic Impact │
 │ 6. Feature Recommendations │
 │ 7. Spectrum Refarming Strategy │
 │ 8. App Data & Traffic Analysis │
-│ 9. Traffic Generating Apps │
-│ 10. Investment Focus Areas │
-│ 11. Executive Summary │
+│ 9. Investment Focus Areas │
+│ 10. Executive Summary │
 └─────────────────────────────────────┘
 
 ---
@@ -52,15 +48,13 @@ performance analysis begins.
 ### Methodology
 - Cell site inventory validation across technology 
   layers (2G/3G/4G/5G)
-- Parameter audit — transmit power, antenna tilt, 
+- Site database audit — transmit power, antenna tilt, 
   azimuth, height above ground
 - Frequency band mapping per site and sector
-- Neighbor cell relationship verification
 - Configuration drift detection vs planned values
 
 ### Key Outputs
 - Site configuration baseline report
-- Parameter anomaly flags
 - Coverage vs configuration gap analysis
 
 ---
@@ -127,7 +121,7 @@ theoretical and contracted network capabilities.
 
 ### Data Sources
 - Drive test measurements
-- Crowd-sourced speed data (Ookla/nPerf)
+- Crowd-sourced speed data (Ookla)
 - Network counters — scheduler throughput
 - CQI and MCS distribution analysis
 
@@ -159,8 +153,7 @@ experienced a measurable shift in traffic patterns:
   dimensioned for 10:1 DL:UL ratio faced 
   unexpected uplink pressure
 - **Speed degradation:** Uplink bottlenecks reduced 
-  effective download speeds through TCP feedback 
-  loop constraints
+  effective download speeds
 
 ### Analysis Methodology
 - Uplink PRB utilization trend analysis pre/post 
@@ -173,15 +166,12 @@ experienced a measurable shift in traffic patterns:
 ### Strategic Implications
 - Uplink capacity dimensioning assumptions 
   require revision for AI-era networks
-- 5G UL-heavy configurations (e.g., SUL, 
-  flexible TDD) become investment priorities
-- Feature activation recommendations to address 
-  UL congestion
+- 5G UL-heavy configurations (e.g., SUL) become investment priorities
+- Feature activation recommendations to address UL congestion
 
 *This section represents original analytical work 
 identifying AI-driven uplink congestion as an 
-emerging network challenge — predating most 
-industry publications on this topic.*
+emergent network challenge*
 
 ---
 
@@ -246,8 +236,7 @@ Phase 3: Rural sites (device dependency check)
 
 **Step 4 — 5G Carrier Addition Strategy**
 - NR carrier addition candidate identification
-- Band selection — sub-6GHz vs mmWave
-- NSA vs SA deployment decision framework
+- Band selection — sub-6GHz
 - Backhaul readiness assessment per site
 
 ### Decision Matrix
@@ -324,7 +313,7 @@ Translate analytical findings into prioritized,
 business-case-ready investment recommendations 
 for network expansion.
 
-### Investment Prioritization Framework
+### Investment Prioritization Framework based on Geographic Priority Indices 
 Priority Score = f(
 Congestion Severity,
 Population Density,
@@ -342,7 +331,7 @@ Coverage Gap
 
 **Category 2 — Technology Upgrade (Medium ROI)**
 - 3G→4G refarming (capex-light)
-- 4G→5G NSA upgrade at priority sites
+- 4G→5G NSA/SA upgrade at priority sites
 - Massive MIMO deployment in dense urban
 
 **Category 3 — Coverage Extension (Strategic)**
@@ -375,47 +364,15 @@ Executive Summary Structure:
 ├── Network Health Score (overall rating)
 ├── Top 3 Strengths
 ├── Top 3 Critical Issues
-├── Immediate Actions (0-30 days)
-├── Short-term Investments (30-90 days)
-├── Strategic Recommendations (90+ days)
-└── KPI Improvement Forecast
+├── Short-term & Strategic Recommendations
 
 ---
 
 ## Technical Stack
 
-`Python` `pandas` `matplotlib` `geopandas`  
-`Power BI` `SQL` `Excel` `GIS Mapping`  
+`geolocation tools` `Power BI` `Excel` `GIS Mapping`  
 `DPI Analytics` `Ookla Speedtest Intelligence`  
-`Huawei iManager` `Counter Analysis`  
-`Network Planning Tools`
-
----
-
-## Domain Expertise Demonstrated
-
-| Area | Depth |
-|---|---|
-| RAN Performance Analysis | Expert |
-| Capacity Planning | Expert |
-| Spectrum Management | Expert |
-| AI Traffic Impact Analysis | Pioneer |
-| App-layer Analytics | Advanced |
-| Executive Reporting | Expert |
-| Investment Prioritization | Expert |
-| Middle East Network Context | Expert |
-
----
-
-## Why This Work Matters in 2026
-
-The AI-driven uplink congestion finding documented 
-in Section 5 has since become one of the most 
-discussed challenges in mobile network operations 
-globally. This analysis identified the pattern 
-early using real operator data, demonstrating 
-the value of granular network intelligence 
-in anticipating industry-wide challenges.
+`Performance Counter Analysis` `Agile Network Planning`
 
 ---
 

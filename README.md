@@ -289,7 +289,7 @@ Application Categories:
 ├── Gaming (PUBG, Mobile Legends)
 │ └── KPI: Latency, Jitter, Packet loss
 └── Communication (WhatsApp, Teams)
-└── KPI: VoIP MOS, Call setup delay
+  └── KPI: VoIP MOS, Call setup delay
 
 ---
 

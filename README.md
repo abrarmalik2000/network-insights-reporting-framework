@@ -377,13 +377,14 @@ single-page C-suite ready narrative with
 clear action items.
 
 ### Summary Framework
+```
 Executive Summary Structure:
 ├── Network Health Score (overall rating)
 ├── Top 3 Strengths
 ├── Top 3 Critical Issues
 ├── Short-term & Strategic Recommendations
 ├── Network insights summary 
-
+```
 ---
 
 ## Technical Stack

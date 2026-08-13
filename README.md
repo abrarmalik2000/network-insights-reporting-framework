@@ -1,4 +1,4 @@
-# 📊 Network Insights Reporting Framework
+## 📊 Network Insights Reporting Framework
 Regional mobile network intelligence reporting framework : performance KPIs, capacity planning, AI-driven congestion analysis, spectrum refarming strategy   
 
 **Type:** Methodology Portfolio — Confidential data excluded
